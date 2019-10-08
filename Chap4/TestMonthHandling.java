@@ -3,8 +3,8 @@ public class TestMonthHandling
 {
    public static void main(String[] args)
    {
-      LocalDate jan31 = LocalDate.of(2016, 1, 31);
-      LocalDate dec31 = LocalDate.of(2016, 12, 31);
+      LocalDate jan31 = LocalDate.of(2019, 1, 31);
+      LocalDate dec31 = LocalDate.of(2019, 12, 31);
       System.out.println("First date " + jan31);
       System.out.println("Second date " + jan31.plusMonths(1));
       System.out.println("Third date " + jan31.plusMonths(2));
