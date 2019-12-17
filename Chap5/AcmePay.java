@@ -1,26 +1,26 @@
 import java.util.*;
 public class AcmePay {
     public static void main(String[] args) throws Exception {
-        Scanner spoon = new Scanner(System.in);
+        Scanner cool = new Scanner(System.in);
         int shift, reti = 2;
         double rate = 0, pay = 0, ovrtm = 0, total = 0, hrs = 0, dede = 0, net = 0;
 
-        System.out.print("What is your shift? > ");
-        shift = spoon.nextInt();
+        System.out.print("What is your shift? (1-3) > ");
+        shift = cool.nextInt();
         System.out.print("How many hours did you work? > ");
-        hrs = spoon.nextInt();
+        hrs = cool.nextInt();
        if (shift == 1){
            rate = 17;}
            else{
                if(shift == 2){
                    rate = 18.50;
-               System.out.println("Do you want to join the retirement program?  1 = yes, 2 = no");
-        reti = spoon.nextInt();}
+               System.out.println("Do you want to join the retirement program?  1 is yes, 2 is no");
+        reti = cool.nextInt();}
                else{
                    if(shift == 3){
                        rate = 22;
-                   System.out.println("Do you want to join the retirement program?  1 = yes, 2 = no");
-        reti = spoon.nextInt();}
+                   System.out.println("Do you want to join the retirement program?  1 is yes, 2 is no");
+        reti = cool.nextInt();}
                    else{
                        System.out.println("Reselect your shift.");}}}
         
