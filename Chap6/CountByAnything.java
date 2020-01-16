@@ -5,9 +5,9 @@ public class CountByAnything
    public static void main (String args[])
    {
        Scanner sc=new Scanner(System.in);
-System.out.println("Enter cash money number!!");
-int ben=sc.nextInt();
-      final int START = ben;
+System.out.println("Enter number");
+int num=sc.nextInt();
+      final int START = num;
       final int STOP = 500;
       final int NUMBER_PER_LINE =10;
       int count = 0;
