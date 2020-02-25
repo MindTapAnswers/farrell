@@ -3,7 +3,7 @@ public class SortPurchasesArray
 {
    public static void main(String[] args)
    {
-      Purchase[] purchases = new Purchase[6];
+      Purchase[] purchases = new Purchase[5];
       int i;
       String message;
       char choice;
